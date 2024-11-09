@@ -39,9 +39,11 @@ function modifyTwitter() {
 
   // Hide any elements with text containing "Followed by", "following", or "followers"
   document.querySelectorAll('*').forEach(element => {
-    if (element.childNodes.length === 1 && element.childNodes[0].nodeType === Node.TEXT_NODE) {
+    if (element.childNodes.length === 1 && 
+        element.childNodes[0].nodeType === Node.TEXT_NODE && 
+        !element.closest('[role="tab"]')) { // Exclude tabs from being hidden
       const text = element.textContent.toLowerCase();
-      if (text.includes('followed by') || text.includes('following') || text.includes('followers')) {
+      if (text.includes('followed by') || text.includes('followers')) { // Remove 'following' from this check
         element.style.display = 'none';
       }
     }
