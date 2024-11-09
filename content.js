@@ -1,7 +1,7 @@
 function modifyTwitter() {
   // Hide metric counts, retweet icon, and following/followers elements
   const elementsToHide = [
-    '[data-testid="retweet"]',
+    '[data-testid="retweet"] [data-testid="app-text-transition-container"]',
     '[data-testid="like"] div[dir="ltr"] span',
     '[data-testid="reply"] div[dir="ltr"] span',
     '[data-testid="views"]',
