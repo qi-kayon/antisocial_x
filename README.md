@@ -69,3 +69,12 @@ Feel free to submit issues, fork the repository, and create pull requests for an
 ## Why Not on Chrome Store?
 
 This extension modifies core functionality of Twitter/X, which may conflict with Chrome Web Store policies. Therefore, it's distributed as an open source project for users to install manually.
+
+## Screenshots
+
+### Profile Changes
+![image](./ScreenShot_ProfileDetail.png)
+
+
+### Post Changes
+![image](./ScreenShot_PostDetail.png)
