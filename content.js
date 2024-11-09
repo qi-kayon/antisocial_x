@@ -7,7 +7,11 @@ function modifyTwitter() {
     '[data-testid="views"]',
     'a[href$="/followers"]',
     'a[href$="/following"]',
-    'a[href$="/verified_followers"]'
+    'a[href$="/verified_followers"]',
+    // For retweeted posts
+    'div[style*="color: rgb(0, 186, 124)"] [data-testid="app-text-transition-container"]',
+    // For like counts on retweeted posts
+    'div[style*="color: rgb(249, 24, 128)"] [data-testid="app-text-transition-container"]'
   ];
   elementsToHide.forEach(selector => {
     document.querySelectorAll(selector).forEach(element => {
@@ -18,14 +22,10 @@ function modifyTwitter() {
   // Hide elements with links ending in "/analytics" and their parent elements
   document.querySelectorAll('a[href$="/analytics"]').forEach(element => {
     element.style.display = 'none';
-    if (element.parentElement) {
-      element.parentElement.style.display = 'none';
-    }
   });
 
   // Hide any remaining metrics and "Followed by" section
   const additionalElementsToHide = [
-    '[data-testid="app-text-transition-container"]',
     '[data-testid="socialContext"]', // "Followed by" section
     '[data-testid="UserName"] span:not(:first-child)', // Hide additional spans but keep the username
     'a[href$="/followers_you_follow"]', // "Followers you know" section
