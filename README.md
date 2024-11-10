@@ -2,6 +2,9 @@
 
 # Antisocial X
 
+## Demo
+[![Anti-Social X Demo](https://img.youtube.com/vi/MVJ9KnPb7q4/0.jpg)](https://www.youtube.com/watch?v=MVJ9KnPb7q4)
+
 ## About
 
 The 🐑**antisocial_x** extension creates a truly neutral browsing experience on X (fka Twitter), 
