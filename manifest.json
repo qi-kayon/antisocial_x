@@ -9,7 +9,6 @@
     "48": "antisocial_x_icon_48.png",
     "128": "antisocial_x_icon_128.png"
   },
-  "permissions": ["activeTab"],
   "content_scripts": [
     {
       "matches": ["https://twitter.com/*", "https://x.com/*"],
@@ -19,10 +18,10 @@
   ],
   "action": {
     "default_icon": {
-      "16": "icon.html",
-      "48": "icon.html",
-      "128": "icon.html"
+      "16": "antisocial_x_icon_16.png",
+      "32": "antisocial_x_icon_32.png",
+      "48": "antisocial_x_icon_48.png",
+      "128": "antisocial_x_icon_128.png"
     }
   }
-  
 }
