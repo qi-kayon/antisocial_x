@@ -3,15 +3,16 @@
 # Antisocial X
 
 ## Demo
+
 [![Anti-Social X Demo](https://img.youtube.com/vi/MVJ9KnPb7q4/0.jpg)](https://www.youtube.com/watch?v=MVJ9KnPb7q4)
 
 ## About
 
-The 🐑**antisocial_x** extension creates a truly neutral browsing experience on X (fka Twitter), 
-allowing users to engage with content based solely on its inherent value, without any influence 
-from visible engagement metrics, follower counts, or social proof indicators. 
+The 🐑**antisocial_x** extension creates a truly neutral browsing experience on X (fka Twitter),
+allowing users to engage with content based solely on its inherent value, without any influence
+from visible engagement metrics, follower counts, or social proof indicators.
 
-It preserves the ability for users to like and comment on posts, maintaining the core interactive 
+It preserves the ability for users to like and comment on posts, maintaining the core interactive
 features of the platform while removing all potential influences of popularity metrics.
 
 ## What Gets Hidden
@@ -36,9 +37,9 @@ features of the platform while removing all potential influences of popularity m
 
 1. Get the Code:
 
-~~~bash
+```bash
 git clone https://github.com/qi-kayon/antisocial_x.git
-~~~
+```
 
 Or download and extract the ZIP file from this repository
 
@@ -48,7 +49,6 @@ Or download and extract the ZIP file from this repository
 - Toggle on "Developer mode" in the top right
 - Click "Load unpacked"
 - Select the folder containing the extension
-
 
 3. Test It Out
 
@@ -71,13 +71,14 @@ Feel free to submit issues, fork the repository, and create pull requests for an
 
 ## Why Not on Chrome Store?
 
-This extension modifies core functionality of Twitter/X, which may conflict with Chrome Web Store policies. Therefore, it's distributed as an open source project for users to install manually.
+This addon is currently under review for availability on the ChromeStore. Please stay tuned!
 
 ## Screenshots
 
 ### Profile Changes
+
 ![image](./ScreenShot_ProfileDetail.png)
 
-
 ### Post Changes
+
 ![image](./ScreenShot_PostDetail.png)
