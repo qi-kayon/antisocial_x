@@ -33,7 +33,7 @@ features of the platform while removing all potential influences of popularity m
 - All content and media
 - Core posting functionality
 
-## Installation
+## Manual Installation via Git
 
 1. Get the Code:
 
