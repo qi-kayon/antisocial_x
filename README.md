@@ -15,6 +15,9 @@ from visible engagement metrics, follower counts, or social proof indicators.
 It preserves the ability for users to like and comment on posts, maintaining the core interactive
 features of the platform while removing all potential influences of popularity metrics.
 
+## Privacy
+This extension operates entirely locally and does not collect or transmit any user data.
+
 ## What Gets Hidden
 
 - Like counts
@@ -67,11 +70,11 @@ If metrics become visible again:
 
 ## Contributing
 
-Feel free to submit issues, fork the repository, and create pull requests for any improvements.
+Feel free to fork the repository, and create pull requests for any improvements.
 
-## Why Not on Chrome Store?
+## Chrome Web Store
 
-This addon is currently under review for availability on the ChromeStore. Please stay tuned!
+This addon is now available on the Chrome Web Store! [Add link once approved]
 
 ## Screenshots
 
@@ -82,3 +85,9 @@ This addon is currently under review for availability on the ChromeStore. Please
 ### Post Changes
 
 ![image](./ScreenShot_PostDetail.png)
+
+
+## Support
+If you encounter any issues or have suggestions, please:
+- Open an issue on GitHub: https://github.com/qi-kayon/antisocial_x/issues
+- Or contact me directly: https://github.com/qi-kayon
