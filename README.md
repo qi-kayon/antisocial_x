@@ -39,7 +39,7 @@ This extension operates entirely locally and does not collect or transmit any us
 - All content and media
 - Core posting functionality
 
-## Chrome Web Store
+## Install via Chrome Web Store
 
 This addon is now available on the Chrome Web Store! [Get it here](https://chromewebstore.google.com/detail/antisocial-x/ealnpgcmoldhgjmficibhiajibejhlog)
 
