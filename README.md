@@ -20,6 +20,7 @@ This extension operates entirely locally and does not collect or transmit any us
 
 ## What Gets Hidden
 
+### Antisocial Mode:
 - Like counts
 - Retweet counts
 - View counts
@@ -28,8 +29,10 @@ This extension operates entirely locally and does not collect or transmit any us
 - "Followed by" indicators
 - All other numerical social metrics
 
-## What Stays Functional
+### Disable Notifications Mode:
+- Notifications (optional)
 
+## What Stays Functional
 - Following/For You navigation
 - Follow/Unfollow buttons
 - Ability to like, retweet, and reply
@@ -37,6 +40,10 @@ This extension operates entirely locally and does not collect or transmit any us
 - Core posting functionality
 
 ## Manual Installation via Git
+
+0. [Install via Google Chrome Webstore](https://chromewebstore.google.com/detail/antisocial-x/ealnpgcmoldhgjmficibhiajibejhlog) 
+
+OR
 
 1. Get the Code:
 
@@ -74,9 +81,13 @@ Feel free to fork the repository, and create pull requests for any improvements.
 
 ## Chrome Web Store
 
-This addon is now available on the Chrome Web Store! [Add link once approved]
+This addon is now available on the Chrome Web Store! [Get it here](https://chromewebstore.google.com/detail/antisocial-x/ealnpgcmoldhgjmficibhiajibejhlog)
 
 ## Screenshots
+
+### Toggle Modes
+
+![image](./ScreenShot_antisocialToggles.png)
 
 ### Profile Changes
 
