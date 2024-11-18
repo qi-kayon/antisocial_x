@@ -39,11 +39,11 @@ This extension operates entirely locally and does not collect or transmit any us
 - All content and media
 - Core posting functionality
 
+## Chrome Web Store
+
+This addon is now available on the Chrome Web Store! [Get it here](https://chromewebstore.google.com/detail/antisocial-x/ealnpgcmoldhgjmficibhiajibejhlog)
+
 ## Manual Installation via Git
-
-0. [Install via Google Chrome Webstore](https://chromewebstore.google.com/detail/antisocial-x/ealnpgcmoldhgjmficibhiajibejhlog) 
-
-OR
 
 1. Get the Code:
 
@@ -78,10 +78,6 @@ If metrics become visible again:
 ## Contributing
 
 Feel free to fork the repository, and create pull requests for any improvements.
-
-## Chrome Web Store
-
-This addon is now available on the Chrome Web Store! [Get it here](https://chromewebstore.google.com/detail/antisocial-x/ealnpgcmoldhgjmficibhiajibejhlog)
 
 ## Screenshots
 
